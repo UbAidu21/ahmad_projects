@@ -1,4 +1,5 @@
 import 'package:first_project/screens/home_page.dart';
+import 'package:first_project/screens/rows_columns.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -59,7 +60,7 @@ class MyApp extends StatelessWidget {
       locale: const Locale('ur', 'PK'),
 
       ///This is the First Screen that will launch when our app is run the first time.
-      home: const HomePage(),
+      home: const RowsAndColumnsScreen(),
     );
   }
 }
